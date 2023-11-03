@@ -12,7 +12,7 @@
 		var ball1 = Math.floor(Math.random() * 29) + 1;
 		var ball2 = Math.floor(Math.random() * 46) + 2;
 		var ball3 = Math.floor(Math.random() * 47) + 11;
-		var ball4 = Math.floor(Math.random() * 48) + 22;
+		var ball4 = Math.floor(Math.random() * 48) + 21;
 		var ball5 = Math.floor(Math.random() * 29) + 40;
 		var powerBall = Math.floor(Math.random() * 26) + 1;
 
@@ -27,7 +27,7 @@
 			var ball3 = Math.floor(Math.random() * 47) + 11;
 			return ball3
 				}
-		else if (ball4 === ball1 || ball4 === ball1) {
+		else if (ball4 === ball1 || ball4 === ball5) {
 			console.log("duplicate with 4th ball " + ball1 + "," + ball2 + "," + ball3 +","  + ball4 +","  + ball5)
 			var ball4 = Math.floor(Math.random() * 31) + 30;
 			return ball4
