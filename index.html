@@ -1,0 +1,48 @@
+<!Doctype html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta lang="en">
+    <title>PowerBall Number Generator</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+    </style>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div class="container">
+        <div id="logo">
+            <div class="ball">P</div>
+            <div class="ball">O</div>
+            <div class="ball">W</div>
+            <div class="ball">E</div>
+            <div class="ball">R</div>
+            <div class="ball2 colour">Ball</div>
+        </div>
+        <div class="state">.</div>
+
+        <div class="numbers">
+            <div class="row">
+                <div id="num1" class="ball col-md-2"><span id="one"></span></div>
+                <div id="num2" class="ball col-md-2"><span id="two"></span></div>
+                <div id="num3" class="ball col-md-2"><span id="three"></span></div>
+                <div id="num4" class="ball col-md-2"><span id="four"></span></div>
+                <div id="num5" class="ball col-md-2"><span id="five"></span></div>
+                <div id="num6" class="ball col-md-2"><span id="six"></span></div>
+            </div>
+        </div>
+
+    </div>
+
+    <button type="button" class="draw-btn" onclick="random()">DRAW NUMBERS</button>
+    <button type="button" onClick="window.location.reload();">CLEAR MEMORY</button>
+
+
+
+    <script src="index.js"></script>
+
+
+</body>
+
+</html>

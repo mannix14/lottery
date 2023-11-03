@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url("images/table.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+.container {
+  height: 300px;
+  width: 500px;
+  background: rgb(21, 73, 245);
+  margin: 60px auto;
+  padding: 10px 5px;
+  border-radius: 12px;
+  border: 3px white dotted;
+}
+.ball {
+  margin: 1px;
+  padding: 10px;
+  float: left;
+  height: 40px;
+  width: 40px;
+  background: white;
+  border-radius: 30px;
+  border: 1px solid black;
+  position: relative;
+  left: 10%;
+  margin: auto;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 900;
+  background-image: linear-gradient(
+    to bottom,
+    rgb(253, 253, 253),
+    rgb(216, 213, 213)
+  );
+  box-shadow: 5px 10px 5px rgba(186, 187, 187, 0.3);
+  font-family: "Lato", sans-serif;
+}
+
+.ball2 {
+  margin: 1px;
+  padding: 10px;
+  float: left;
+  height: 40px;
+  width: 40px;
+  background: white;
+  border-radius: 30px;
+  border: 1px solid black;
+  position: relative;
+  left: 10%;
+  text-align: center;
+  font-size: 1.5em;
+  font-weight: bold;
+  box-shadow: 5px 10px 5px rgba(186, 187, 187, 0.3);
+  font-family: "Lato", sans-serif;
+}
+
+.statement,
+.center {
+  text-transform: uppercase;
+}
+.center {
+  text-align: center;
+}
+.numbers {
+  position: relative;
+  height: 250px;
+  width: 100%;
+  top: 130px;
+}
+button {
+  display: flex;
+  justify-content: center;
+  padding: 10px 40px;
+  align-items: center;
+  border-radius: 15px;
+  margin: auto;
+}
+
+button:hover {
+  background-color: rgb(226, 25, 18);
+  transition-delay: 0.0541s;
+}
+/*
+.draw-btn {
+  width: 100vw;
+} */
+
+#num6 {
+  background: red;
+}
+.colour {
+  background: red;
+  color: white;
+}
+.state {
+  clear: both;
+  float: right;
+  position: relative;
+  right: 10%;
+  top: 5%;
+}
+.statement {
+  clear: both;
+  position: relative;
+  left: 32%;
+  top: 10%;
+}
+#logo {
+  position: relative;
+  left: auto;
+  top: 5%;
+}
+.center {
+  position: relative;
+  top: 30px;
+}
+
+.colour {
+  font-size: 1.5em;
+}
